@@ -2,7 +2,10 @@ import girlInBox from 'assets/illustrations/girl-in-box.svg';
 
 const AboutMe = () => {
   return (
-    <div className='flex w-full justify-center py-10 px-10 flex-wrap lg:flex-nowrap'>
+    <div
+      id='aboutMe'
+      className='flex w-full justify-center py-10 px-10 flex-wrap lg:flex-nowrap'
+    >
       <img src={girlInBox} width={320} />
       <div className='flex flex-col gap-6 ml-10 flex-wrap'>
         <h1 className='text-[36px]'>
@@ -18,8 +21,7 @@ const AboutMe = () => {
 
         <p>
           I started my journey as a frontend developer in 2020. Since then,
-          I&apos;ve continued to grow and evolve as a developer, taking on new
-          challenges and learning the latest technologies along the way.
+          I&apos;ve embraced new challenges and honed my problem-solving skills.
         </p>
         <p>
           When I&apos;m not in developer mode, I feed my creativity by exploring

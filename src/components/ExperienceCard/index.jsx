@@ -9,11 +9,11 @@ const ExperienceCard = (props) => {
     skills = [],
   } = props;
   return (
-    <div className='border border-white w-[80%] h-full flex-col flex rounded p-5 mb-5'>
+    <div className='border border-white md:w-[80%] h-full flex-col flex rounded p-5 mb-5'>
       <div className='flex justify-between w-full items-center flex-wrap gap-2'>
         <div className='flex gap-5 items-center'>
           <img src={companyIcon} width={50} />
-          <span className='text-[30px]'>{companyName}</span>
+          <span className='text-[30px] '>{companyName}</span>
         </div>
 
         <span>{duration}</span>

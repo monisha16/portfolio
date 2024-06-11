@@ -13,11 +13,19 @@ const ProjectCard = (props) => {
   } = props;
 
   return (
-    <div className='flex w-full justify-around flex-wrap'>
+    <div className='grid md:grid-cols-[1fr_1fr] gap-20 justify-center grid-rows-[auto] pb-10'>
       {align === 'left' && (
-        <img src={thumbnail} className='rounded h-60 w-[420px]' />
+        <img
+          src={thumbnail}
+          className='rounded h-60 w-[400px] hidden md:flex'
+        />
       )}
-      <div className='flex flex-col justify-between ml-5 flex-1'>
+
+      <div className='flex flex-col justify-between flex-1'>
+        <img
+          src={thumbnail}
+          className='rounded h-60 w-[400px] md:hidden flex'
+        />
         <div>
           <h1 className='text-[36px] font-bold'>0{serialNo}</h1>
           <h2 className='text-[30px]'>{name}</h2>
@@ -61,7 +69,10 @@ const ProjectCard = (props) => {
         </div>
       </div>
       {align === 'right' && (
-        <img src={thumbnail} className='rounded h-60 w-[420px]' />
+        <img
+          src={thumbnail}
+          className='rounded h-60 w-[400px] hidden md:flex'
+        />
       )}
     </div>
   );

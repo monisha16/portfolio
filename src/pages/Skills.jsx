@@ -7,7 +7,7 @@ import gitIcon from 'assets/icons/git.svg';
 
 const Skills = () => {
   return (
-    <div className='flex flex-col items-center my-10 px-10'>
+    <div id='skills' className='flex flex-col items-center my-10 px-10'>
       <h1 className='text-[36px] mb-2'>
         My <strong>Skills</strong>
       </h1>

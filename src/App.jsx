@@ -1,6 +1,7 @@
 import './App.css';
 import NavigationBar from './components/NavigationBar';
 import AboutMe from './pages/AboutMe';
+import ContactMe from './pages/ContactMe';
 import Experience from './pages/Experience';
 import LandingPage from './pages/LandingPage';
 import Projects from './pages/Projects';
@@ -15,6 +16,7 @@ function App() {
       <Experience />
       <AboutMe />
       <Projects />
+      <ContactMe />
     </div>
   );
 }
