@@ -17,14 +17,16 @@ const ProjectCard = (props) => {
       {align === 'left' && (
         <img
           src={thumbnail}
-          className='rounded h-60 w-[400px] hidden md:flex'
+          onClick={() => window.open(demoLink, '_blank')}
+          className='rounded h-60 w-[400px] hidden md:flex cursor-pointer hover:scale-125 duration-500'
         />
       )}
 
       <div className='flex flex-col justify-between flex-1'>
         <img
           src={thumbnail}
-          className='rounded h-60 w-[400px] md:hidden flex'
+          onClick={() => window.open(demoLink, '_blank')}
+          className='rounded h-60 w-[400px] md:hidden flex cursor-pointer'
         />
         <div>
           <h1 className='text-[36px] font-bold'>0{serialNo}</h1>
@@ -71,7 +73,8 @@ const ProjectCard = (props) => {
       {align === 'right' && (
         <img
           src={thumbnail}
-          className='rounded h-60 w-[400px] hidden md:flex'
+          onClick={() => window.open(demoLink, '_blank')}
+          className='rounded h-60 w-[400px] hidden md:flex cursor-pointer hover:scale-125 duration-500'
         />
       )}
     </div>

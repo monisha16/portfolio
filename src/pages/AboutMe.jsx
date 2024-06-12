@@ -7,7 +7,7 @@ const AboutMe = () => {
       className='flex w-full justify-center py-10 px-10 flex-wrap lg:flex-nowrap'
     >
       <img src={girlInBox} width={320} />
-      <div className='flex flex-col gap-6 ml-10 flex-wrap'>
+      <div className='flex flex-col gap-6 md:ml-10 flex-wrap'>
         <h1 className='text-[36px]'>
           About <strong>Me</strong>
         </h1>
