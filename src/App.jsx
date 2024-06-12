@@ -1,4 +1,3 @@
-import './App.css';
 import NavigationBar from './components/NavigationBar';
 import AboutMe from './pages/AboutMe';
 import ContactMe from './pages/ContactMe';

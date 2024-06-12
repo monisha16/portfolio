@@ -11,7 +11,7 @@ const Skills = () => {
       <h1 className='text-[36px] mb-2'>
         My <strong>Skills</strong>
       </h1>
-      <span className='text-lg mb-16 text-gray-500'>
+      <span className='text-lg mb-16 text-gray-500 text-center'>
         The skills, tools and technologies I have worked with
       </span>
 
