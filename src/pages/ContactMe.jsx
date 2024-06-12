@@ -1,6 +1,6 @@
 const ContactMe = () => {
   return (
-    <div className='flex flex-col items-center my-10'>
+    <div id='contactMe' className='flex flex-col items-center my-10'>
       <span className='text-[36px]'>Get in touch</span>
       <span className='text-gray-500 px-20 py-8 flex flex-wrap'>
         Feel free to reach out to me if you&apos;re looking for a developer,
