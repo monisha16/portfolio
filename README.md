@@ -1,8 +1,11 @@
-# React + Vite
+![image](https://github.com/monisha16/portfolio/assets/25998193/8a454053-85eb-40fe-be10-3738c38e17d7)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About this repo
+This is my personal portfolio [monisha-tarkar.netlify.app](https://monisha-tarkar.netlify.app/) which features some of my github projects, work experience and as well my technical skills.
 
-Currently, two official plugins are available:
+This portfolio is built with **ReactJS** using **TailwindCSS** for styling and is **fully responsive**. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<hr />
+Made with ❤️ by Monisha Tarkar <br/>
+
+
