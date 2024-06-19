@@ -1,6 +1,6 @@
 import myRssFeeder from 'assets/illustrations/myRssFeeder.png';
 import heiwa from 'assets/illustrations/heiwa.png';
-import eden from 'assets/illustrations/eden.png';
+import kyupid from 'assets/illustrations/kyupid.png';
 
 export const projects = [
   {
@@ -22,12 +22,12 @@ export const projects = [
     githubLink: 'https://github.com/monisha16/rss-reader',
   },
   {
-    thumbnail: eden,
-    name: 'Eden',
+    thumbnail: kyupid,
+    name: 'Kyupid',
     summary:
-      'React project on user onboarding process focused on Forms and progress bar',
-    skills: ['Javascript', 'ReactJS', 'Scss'],
-    demoLink: 'https://cutshort-eden.netlify.app/',
-    githubLink: 'https://github.com/monisha16/cutshort',
+      'Providing data insigts through maps to Kyupid, a dating app service in Bangalore.',
+    skills: ['Javascript', 'ReactJS', 'Scss', 'MapboxGL'],
+    demoLink: 'https://kyupid-app.netlify.app/',
+    githubLink: 'https://github.com/monisha16/kyupid',
   },
 ];
